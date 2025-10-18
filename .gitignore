@@ -1,0 +1,18 @@
+cat <<EOL > .gitignore
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# Build output
+dist/
+.next/
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+EOL
