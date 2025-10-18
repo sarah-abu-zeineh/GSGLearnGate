@@ -1,0 +1,2 @@
+ALTER TABLE `attachments` RENAME COLUMN "student_id" TO "creatorId";--> statement-breakpoint
+ALTER TABLE `attachments` ALTER COLUMN "creatorId" TO "creatorId" integer NOT NULL REFERENCES students(id) ON DELETE no action ON UPDATE no action;

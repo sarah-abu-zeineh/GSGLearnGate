@@ -1,0 +1,25 @@
+@keyframes showNav {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+nav.show {
+  animation: showNav 0.3s forwards;
+}
+
+@keyframes showUL {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+nav ul {
+  animation: showUL 0.3s forwards;
+}
