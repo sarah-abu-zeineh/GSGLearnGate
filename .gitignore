@@ -16,3 +16,4 @@ logs
 # OS files
 .DS_Store
 EOL
+node_modules/
